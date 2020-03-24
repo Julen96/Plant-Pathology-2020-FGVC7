@@ -6,7 +6,8 @@ TODOS:
 - Check if the dilation rate is well specified, with what it tells in the Paper
 - Check if there is the code online!
 - Check if ASSP can be done as in the Paper, same structure
-- Loss function and how to compute it
+- Do function to pass always different images in the batch to train the model
+- Test model in XSEDE
 
 
 
