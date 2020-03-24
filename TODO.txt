@@ -1,0 +1,15 @@
+TODOS:
+
+
+----------------- Batch Confusion Norm -----------------
+
+- Check if the dilation rate is well specified, with what it tells in the Paper
+- Check if there is the code online!
+- Check if ASSP can be done as in the Paper, same structure
+- Loss function and how to compute it
+
+
+
+
+----------------- Localization, Pooling and Embedding -----------------
+
