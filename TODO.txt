@@ -14,3 +14,14 @@ TODOS:
 
 ----------------- Localization, Pooling and Embedding -----------------
 
+- Global K-Max Pooling
+	- Problems reshaping, two possible solutions
+		- Reshape before the K-Max layer (Problems at lower level where I cannot reach)
+		- Reshape in the model -> Problems with "None" for batch. CHOOSE THIS!
+- 
+
+
+
+-------------------- GLOBAL PROBLEMS -----------------------
+
+- The accuracy seems to get stucked at around 0.32, check if the loss is correct
