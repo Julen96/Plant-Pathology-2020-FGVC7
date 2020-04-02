@@ -7,21 +7,17 @@ TODOS:
 - Check if there is the code online!
 - Check if ASSP can be done as in the Paper, same structure
 - Do function to pass always different images in the batch to train the model
-- Test model in XSEDE
+- Test model in XSEDE -> Doesn't run on GPU!
 
 
 
 
 ----------------- Localization, Pooling and Embedding -----------------
 
-- Global K-Max Pooling
-	- Problems reshaping, two possible solutions
-		- Reshape before the K-Max layer (Problems at lower level where I cannot reach)
-		- Reshape in the model -> Problems with "None" for batch. CHOOSE THIS!
-- 
-
+- Global K-Max Pooling -> DONE
+- Embedding Layer, loss -> - Within-class loss: The tensors are immutable! They run in the GPU, numpy only in CPU
+- More complex algorithm to do within-class loss, without any for loop or if
 
 
 -------------------- GLOBAL PROBLEMS -----------------------
 
-- The accuracy seems to get stucked at around 0.32, check if the loss is correct
