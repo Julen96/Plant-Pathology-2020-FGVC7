@@ -1,0 +1,31 @@
+TODOS:
+
+
+----------------- Batch Confusion Norm -----------------
+
+- Check if the dilation rate is well specified, with what it tells in the Paper
+- Check if there is the code online!
+- Check if ASSP can be done as in the Paper, same structure
+- Do function to pass always different images in the batch to train the model
+- Test model in XSEDE -> Doesn't run on GPU!
+
+
+
+
+----------------- Localization, Pooling and Embedding -----------------
+
+- Global K-Max Pooling -> DONE
+- Embedding Layer, loss -> DONE
+- Data Generation -> DONE
+
+-------------------- TODOS -----------------------
+
+- Search about freezing. Best practice to first train freezed and then unfreez right?
+- Use method to do hyperparameter tuning
+- Ensembling
+
+----------- OTHER -------------
+- Use another Backbone -> EfficientNetB7
+- Try using only Backbone without additional Losses
+- Try Using Backbone without GlobalKMaxPooling
+

@@ -1,0 +1,31 @@
+Hyperparameter tuning of Elope:
+
+
+FIRST: 	- Find a good and robust model doing only hyperparameter tuning
+		- Layer freezing + unfreezing
+		- Learning rate decay
+		- Loss change for the classes representation
+		- other hyperparameter tunning -> Use Hypkeras!
+	- Data analysis of the data we have. Outliers?
+	- Data Augmentation only in training set
+
+
+SECOND: Try other backbones such as Resnet 151, EfficientNetB7 and so
+THIRD: Try other architectures rather than Global K-Max Pooling -> Drawback: Cannot use loss function
+	- Atrous convolution
+	- Dense layer
+
+FOURTH: Ensemble different models
+
+
+- Learning rate (too high variance at the end of the training, lower learning rate!)
+- Different classes have different representation, check if we can change the loss
+  in order to reflect that representation (class means)
+
+
+
+---------------------- NOTES ------------------------------
+As the model runs too slowly, better practice would be to play with the augmented
+images and then do the augmentation in memory
+
+- Output the three losses!
